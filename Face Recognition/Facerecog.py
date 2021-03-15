@@ -6,6 +6,7 @@ data = np.load("face_data.npy")
 
 print(data.shape, data.dtype)
 
+# testing pull request 
 X = data[:, 1:].astype(int)
 y = data[:, 0]
 
